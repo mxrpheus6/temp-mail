@@ -1,0 +1,13 @@
+package com.mxrpheus;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TempMailApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TempMailApplication.class, args);
+	}
+
+}
